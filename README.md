@@ -4,7 +4,7 @@
 
 ### Are you not entertained? 
 
-- Select your favorite sources of interesting content in the `src/lib/getInterestingContent.tsx` file.
+- Select your favorite sources of interesting content in the `src/lib/getSourcesOfInterestingContent.tsx` file.
 - Interesting Content Sources format:
 ```
 { id: string; type: string }
@@ -27,9 +27,9 @@ WC_API_KEY=
 BOT_SIGNER_UUID=
 ```
 - Read previous block of text, Are you not entertained?, to know how to set your favorites sources of interesting content to analyze in the farcaster network.
-- The `ser/config.ts` file contains the remaining configurable settings for the agent.
-- Select a limit for the number of casts fetched from channels and/or users.
+- The `src/config.ts` file contains the remaining configurable settings for the agent.
 - Set the recipient of the private report sent by Direct Cast and the channelId to send the public report to.
+- Select a limit for the number of casts fetched from channels and/or users.
 
 
 ### Run
